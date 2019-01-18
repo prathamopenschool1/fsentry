@@ -29,7 +29,7 @@ def fstab_entry():
 
     hdds.close()
 
-    if os.path.exists('/opt/PIHDD'):
+    if os.path.exists('/opt/PIHDD/KOLIBRI_DATA/content/storage'):
         pass
     else:
         os.system('sudo mkdir /opt/PIHDD')
