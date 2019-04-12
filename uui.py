@@ -32,7 +32,7 @@ def fstab_entry():
     if os.path.exists('/opt/PIHDD/KOLIBRI_DATA/content/storage'):
         pass
     else:
-        os.system('sudo mkdir /opt/PIHDD')
+        os.system('sudo mkdir /opt/PIHDD/KOLIBRI_DATA/content')
 
     fstab = Fstab()
     other_file = open('data1.txt', 'r+')
